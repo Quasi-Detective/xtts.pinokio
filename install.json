@@ -18,12 +18,6 @@
       }
     },
     {
-      "method": "shell.run",
-      "params": {
-        "message": "{{os.platform() === 'win32' ? 'python' : 'python3'}} -m pip install --upgrade pip"
-      }
-    },
-    {
       "method": "shell.start",
       "params": {
         "env": {

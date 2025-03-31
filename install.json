@@ -100,7 +100,7 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "pip install deepspeed",
+        "message": "pip install deepspeed==0.16.3",
         "on": [
           {
             "event": null,

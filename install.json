@@ -100,6 +100,18 @@
     {
       "method": "shell.enter",
       "params": {
+        "message": "pip install deepspeed",
+        "on": [
+          {
+            "event": null,
+            "return": true
+          }
+        ]
+      }
+    },
+    {
+      "method": "shell.enter",
+      "params": {
         "message": "pip install -r requirements.txt",
         "on": [
           {
